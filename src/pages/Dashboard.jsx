@@ -8,7 +8,7 @@ import { IoIosAddCircle } from "react-icons/io";
 import EmptyNotes from "../components/EmptyNotes";
 import useQueryParams from "../hooks/useQueryParams";
 import { prioritasOptions, statusOptions } from "../utils/optionsUtils";
-import FloatingActionButton from "../components/FloatingActionbutton";
+import FloatingActionButton from "../components/FloatingActionButton";
 
 const Dashboard = () => {
   const { currentPage, setCurrentPage, notesPerPage } = usePagination();
