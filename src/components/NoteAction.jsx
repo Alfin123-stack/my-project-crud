@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { IoIosCreate, IoIosTrash } from "react-icons/io";
-import FloatingActionButton from "./FloatingActionbutton";
+import FloatingActionButton from "./FloatingActionButton";
 
 const NoteActions = ({ onEdit, onDelete }) => {
   return (
