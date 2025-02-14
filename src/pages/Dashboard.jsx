@@ -4,11 +4,11 @@ import Filter from "../components/Filter";
 import { filterNotes } from "../services/noteService";
 import { usePagination } from "../hooks/usePagination";
 import Pagination from "../components/Pagination";
-import FloatingActionButton from "../components/FloatingActionbutton";
 import { IoIosAddCircle } from "react-icons/io";
 import EmptyNotes from "../components/EmptyNotes";
 import useQueryParams from "../hooks/useQueryParams";
 import { prioritasOptions, statusOptions } from "../utils/optionsUtils";
+import FloatingActionButton from "../components/FloatingActionbutton";
 
 const Dashboard = () => {
   const { currentPage, setCurrentPage, notesPerPage } = usePagination();
