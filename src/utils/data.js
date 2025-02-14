@@ -1,0 +1,85 @@
+const staticNotes = [
+    {
+      id: Date.now() - 10,
+      title: "Note 1",
+      text: "This is the first note text.",
+      status: "Belum Selesai",
+      prioritas: "Tinggi",
+      date: new Date().toISOString(),
+    },
+    {
+      id: Date.now() - 20,
+      title: "Note 2",
+      text: "This is the second note text.",
+      status: "Sedang Dikerjakan",
+      prioritas: "Sedang",
+      date: new Date().toISOString(),
+    },
+    {
+      id: Date.now() - 30,
+      title: "Note 3",
+      text: "This is the third note text.",
+      status: "Selesai",
+      prioritas: "Rendah",
+      date: new Date().toISOString(),
+    },
+    {
+      id: Date.now() - 40,
+      title: "Note 4",
+      text: "This is the fourth note text.",
+      status: "Belum Selesai",
+      prioritas: "Tinggi",
+      date: new Date().toISOString(),
+    },
+    {
+      id: Date.now() - 50,
+      title: "Note 5",
+      text: "This is the fifth note text.",
+      status: "Sedang Dikerjakan",
+      prioritas: "Sedang",
+      date: new Date().toISOString(),
+    },
+    {
+      id: Date.now() - 60,
+      title: "Note 6",
+      text: "This is the sixth note text.",
+      status: "Selesai",
+      prioritas: "Rendah",
+      date: new Date().toISOString(),
+    },
+    {
+      id: Date.now() - 70,
+      title: "Note 7",
+      text: "This is the seventh note text.",
+      status: "Belum Selesai",
+      prioritas: "Tinggi",
+      date: new Date().toISOString(),
+    },
+    {
+      id: Date.now() - 80,
+      title: "Note 8",
+      text: "This is the eighth note text.",
+      status: "Sedang Dikerjakan",
+      prioritas: "Sedang",
+      date: new Date().toISOString(),
+    },
+    {
+      id: Date.now() - 90,
+      title: "Note 9",
+      text: "This is the ninth note text.",
+      status: "Selesai",
+      prioritas: "Rendah",
+      date: new Date().toISOString(),
+    },
+    {
+      id: Date.now() - 100,
+      title: "Note 10",
+      text: "This is the tenth note text.",
+      status: "Belum Selesai",
+      prioritas: "Tinggi",
+      date: new Date().toISOString(),
+    }
+  ];
+  
+  export default staticNotes;
+  
