@@ -2,7 +2,7 @@ import { useAuth } from "../context/AuthContext";
 import DarkModeToggle from "./DarkModeToggle";
 import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
-import UserDropdown from "./UserDropDown";
+import UserDropdown from "./UserDropdown";
 import Button from "./Button";
 import NoteHeader from "./NoteHeader";
 
