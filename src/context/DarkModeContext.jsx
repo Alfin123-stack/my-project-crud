@@ -16,10 +16,10 @@ export function DarkModeProvider({ children }) {
     const setTheme = () => {
       if (mode === "dark") {
         document.body.classList.add("dark");
-        document.title = "Dark Mode";
+        document.title = "NoteBook | Dark Mode";
       } else if (mode === "light") {
         document.body.classList.remove("dark");
-        document.title =  "Light Mode";
+        document.title =  "NoteBook | Light Mode";
       } else if (mode === "system") {
         const isDarkMode =
           window.matchMedia &&
@@ -29,7 +29,7 @@ export function DarkModeProvider({ children }) {
         } else {
           document.body.classList.remove("dark");
         }
-        document.title = isDarkMode ? "Dark Mode" : "Light Mode";
+        document.title = isDarkMode ? "NoteBook | Dark Mode" : "NoteBook | Light Mode";
       }
     };
 
