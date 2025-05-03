@@ -28,16 +28,16 @@ export const editNote = (id, updatedNote) => {
   const index = notes.findIndex((note) => note.id === id);
 
   if (index !== -1) {
-    // Update the note at the given index
+
     notes[index] = {
-      ...notes[index], // Preserve other properties
-      ...updatedNote, // Apply updates
+      ...notes[index], 
+      ...updatedNote,
     };
-    saveNotes(notes); // Save the updated notes array
-    return notes[index]; // Return the updated note
+    saveNotes(notes);
+    return notes[index]; 
   }
 
-  return null; // Return null if the note is not found
+  return null; 
 };
 
 export const deleteNote = (id) => {
@@ -58,7 +58,7 @@ export const filterNotes = ({ keywords, status, prioritas }) => {
     const isStatusMatch = status ? note.status === status : true;
     const isPrioritasMatch = prioritas ? note.prioritas === prioritas : true;
     const isTextMatch = keywords
-      ? note.title.toLowerCase().includes(keywords.toLowerCase()) // Add title match
+      ? note.title.toLowerCase().includes(keywords.toLowerCase()) 
       : true;
     return isStatusMatch && isPrioritasMatch && isTextMatch;
   });

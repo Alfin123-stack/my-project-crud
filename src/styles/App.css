@@ -1,12 +1,10 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Apply Poppins font to everything */
 body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Optionally, apply a fallback font family just in case Poppins doesn't load */
 * {
   font-family: "Poppins", Arial, sans-serif;
 }

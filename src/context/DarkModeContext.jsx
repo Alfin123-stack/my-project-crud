@@ -19,7 +19,7 @@ export function DarkModeProvider({ children }) {
         document.title = "Dark Mode";
       } else if (mode === "light") {
         document.body.classList.remove("dark");
-        document.title = "Light Mode";
+        document.title =  "Light Mode";
       } else if (mode === "system") {
         const isDarkMode =
           window.matchMedia &&
